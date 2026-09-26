@@ -5,16 +5,17 @@ nav_order: 4
 ---
 
 # API Reference
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Complete REST API documentation for the chat endpoint.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [POST /api/chat](#post-apichat)
+- [Request Examples](#request-examples)
+- [Error Responses](#error-responses)
+- [Type Reference](#type-reference)
 
 ---
 

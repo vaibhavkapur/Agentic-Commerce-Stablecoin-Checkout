@@ -5,16 +5,18 @@ nav_order: 2
 ---
 
 # Getting Started
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Get the agentic commerce checkout running locally in under 5 minutes.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Your First Payment](#your-first-payment)
+- [Quick Examples](#quick-examples)
+- [Available Commands](#available-commands)
 
 ---
 
@@ -32,7 +34,7 @@ Get the agentic commerce checkout running locally in under 5 minutes.
 
 ```bash
 # Clone the repository
-git clone https://github.com/vaibhavkapur22/Agentic-Commerce-Stablecoin-Checkout.git
+git clone https://github.com/vaibhavkapur/Agentic-Commerce-Stablecoin-Checkout.git
 cd Agentic-Commerce-Stablecoin-Checkout
 
 # Install dependencies

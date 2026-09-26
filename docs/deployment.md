@@ -5,16 +5,18 @@ nav_order: 13
 ---
 
 # Deployment & Roadmap
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Production considerations, current limitations, and planned enhancements.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Deployment](#deployment)
+- [Current MVP Limitations](#current-mvp-limitations)
+- [Security Considerations](#security-considerations)
+- [Phase 2 Roadmap](#phase-2-roadmap)
+- [Scaling Considerations](#scaling-considerations)
 
 ---
 
@@ -32,9 +34,11 @@ npm start
 
 The application runs as a standard Next.js server. No external databases or services are required for the MVP.
 
-### GitHub Pages (Documentation)
+### Documentation Access
 
-This documentation site is hosted on GitHub Pages using Jekyll with the Just the Docs theme. It deploys automatically from the `docs/` directory on the `main` branch.
+Open the [documentation home](index.md) directly on GitHub. All guides use repository-relative Markdown links, so reading the docs does not require a deployed website.
+
+The repository also includes an optional GitHub Pages workflow for `docs/` using Jekyll and Just the Docs. A hosted site requires Pages to be enabled with GitHub Actions as its source and a successful deployment. The `jekyll-relative-links` plugin converts guide links when building that site.
 
 ---
 

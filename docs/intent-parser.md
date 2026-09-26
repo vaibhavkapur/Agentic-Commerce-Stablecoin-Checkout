@@ -5,16 +5,20 @@ nav_order: 5
 ---
 
 # Intent Parser
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Natural language parsing into structured payment intents.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Overview](#overview)
+- [Supported Intents](#supported-intents)
+- [Pattern Matching](#pattern-matching)
+- [ParsedIntent Structure](#parsedintent-structure)
+- [Confidence Scoring](#confidence-scoring)
+- [Field Extraction](#field-extraction)
+- [Fallback Behavior](#fallback-behavior)
 
 ---
 

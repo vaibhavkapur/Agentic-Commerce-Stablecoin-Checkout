@@ -5,16 +5,18 @@ nav_order: 3
 ---
 
 # Architecture
-{: .no_toc }
+
+[Documentation home](index.md)
 
 System design, payment lifecycle, and architectural patterns.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Design Principles](#design-principles)
+- [Payment Lifecycle](#payment-lifecycle)
+- [Architectural Patterns](#architectural-patterns)
+- [Security Model](#security-model)
+- [Data Model](#data-model)
 
 ---
 

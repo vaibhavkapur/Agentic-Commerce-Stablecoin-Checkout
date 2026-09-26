@@ -5,16 +5,20 @@ nav_order: 9
 ---
 
 # Payment Execution
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Transaction simulation, mock execution, balance tracking, and receipt generation.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Overview](#overview)
+- [Transaction Simulation](#transaction-simulation)
+- [Mock Execution](#mock-execution)
+- [Payment Record](#payment-record)
+- [Balance Updates](#balance-updates)
+- [Receipt Generation](#receipt-generation)
+- [Error Handling](#error-handling)
 
 ---
 
@@ -169,7 +173,6 @@ On successful payment confirmation:
 | Daily spend | `daily_spend += amount_usd` |
 | Session spend | `session.spent_usd += amount_usd` (if session active) |
 
-{: .note }
 Gas fees are **not** deducted from the wallet balance in the MVP. They are estimated for display purposes only. In production with real blockchain transactions, gas would be paid in the chain's native token.
 
 ---

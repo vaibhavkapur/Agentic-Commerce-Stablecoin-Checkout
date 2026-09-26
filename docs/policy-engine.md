@@ -5,16 +5,20 @@ nav_order: 6
 ---
 
 # Policy Engine
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Three-layer policy evaluation with composite decision logic.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Overview](#overview)
+- [Decision Types](#decision-types)
+- [Layer 1: Static Policy](#layer-1-static-policy)
+- [Layer 2: Session Policy](#layer-2-session-policy)
+- [Layer 3: Risk Policy](#layer-3-risk-policy)
+- [Composite Decision Logic](#composite-decision-logic)
+- [Audit Logging](#audit-logging)
 
 ---
 

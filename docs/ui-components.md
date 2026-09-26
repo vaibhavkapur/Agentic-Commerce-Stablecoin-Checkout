@@ -5,16 +5,19 @@ nav_order: 11
 ---
 
 # UI Components
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Chat interface, message rendering, and approval prompts.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Overview](#overview)
+- [Chat Component](#chat-component)
+- [MessageBubble Component](#messagebubble-component)
+- [ApprovalPrompt Component](#approvalprompt-component)
+- [Styling](#styling)
+- [Page Structure](#page-structure)
 
 ---
 

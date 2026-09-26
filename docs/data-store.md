@@ -5,16 +5,19 @@ nav_order: 10
 ---
 
 # Data Store
-{: .no_toc }
+
+[Documentation home](index.md)
 
 In-memory data store, seed data, and store API.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Overview](#overview)
+- [Entity Collections](#entity-collections)
+- [Seed Data](#seed-data)
+- [Store API](#store-api)
+- [Audit Log Events](#audit-log-events)
+- [Entity Relationships](#entity-relationships)
 
 ---
 

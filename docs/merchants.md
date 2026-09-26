@@ -5,16 +5,20 @@ nav_order: 8
 ---
 
 # Merchant Adapters
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Pluggable merchant integration layer with quote, order, and payment confirmation.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Overview](#overview)
+- [MerchantAdapter Interface](#merchantadapter-interface)
+- [Adapter Registry](#adapter-registry)
+- [RideCo Adapter](#rideco-adapter)
+- [BrewHaus Coffee Adapter](#brewhaus-coffee-adapter)
+- [InvoiceCo Adapter](#invoiceco-adapter)
+- [Adding a New Merchant](#adding-a-new-merchant)
 
 ---
 

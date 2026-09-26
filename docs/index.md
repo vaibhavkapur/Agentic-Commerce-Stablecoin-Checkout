@@ -6,13 +6,25 @@ nav_order: 1
 
 # Agentic Commerce + Stablecoin Checkout
 
-An AI-powered commerce agent that converts natural-language payment requests into policy-controlled USDC payments across multiple blockchains. The agent speaks to merchant adapters, evaluates a three-layer policy engine, routes to the cheapest chain, and executes --- all behind a single chat interface.
-{: .fs-6 .fw-300 }
+A conversational commerce demonstration that turns supported natural-language requests into policy-controlled, simulated USDC payments. Merchant adapters, three policy layers, chain selection, and receipts run behind a chat interface.
 
-[Get Started]({{ site.baseurl }}/getting-started.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/vaibhavkapur22/Agentic-Commerce-Stablecoin-Checkout){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get Started](getting-started.md) · [API Reference](api-reference.md) · [Repository README](https://github.com/vaibhavkapur/Agentic-Commerce-Stablecoin-Checkout/blob/main/README.md)
 
----
+## Documentation
+
+- [Getting Started](getting-started.md)
+- [Architecture](architecture.md)
+- [API Reference](api-reference.md)
+- [Configuration](configuration.md)
+- [Data Store](data-store.md)
+- [Testing](testing.md)
+- [Deployment & Roadmap](deployment.md)
+- [Intent Parser](intent-parser.md)
+- [Policy Engine](policy-engine.md)
+- [Chain Selection](chain-selection.md)
+- [Merchant Adapters](merchants.md)
+- [Payment Execution](payment-execution.md)
+- [UI Components](ui-components.md)
 
 ## Key Features
 
@@ -100,7 +112,9 @@ An AI-powered commerce agent that converts natural-language payment requests int
 
 ---
 
-## Tech Stack
+## Tech Stack and Scope
+
+Next.js 14 / React / TypeScript / Tailwind CSS. Intent parsing is rule-based, state is held in memory, and payments on Base, Polygon, Solana, and Ethereum are mocked.
 
 | Component | Technology |
 |:----------|:-----------|
@@ -157,3 +171,13 @@ src/
     └── receipt/                   # Post-payment
         └── generator.ts          # Receipt creation + audit
 ```
+
+## Related projects
+
+These are independent companion repositories. The links describe related work, not implemented runtime integrations:
+
+- [Agent Authorization Wallet + Merchant Trust Gateway](https://github.com/vaibhavkapur/Agent-Authorization-Wallet-Merchant-Trust-Gateway): purchase authorization, merchant verification, and execution evidence.
+- [Agent Services Marketplace](https://github.com/vaibhavkapur/Agent-Services-Marketplace): service discovery, quotes, and agent purchase workflows.
+- [Agentic Commerce Protocol Test Lab](https://github.com/vaibhavkapur/Agentic-Commerce-Protocol-Test-Lab): protocol fixtures, scenarios, and conformance checks.
+- [Autonomous Price Watch Buyer](https://github.com/vaibhavkapur/Autonomous-Price-Watch-Buyer): price monitoring and bounded purchase decisions.
+- [Cross-Merchant Procurement Agent](https://github.com/vaibhavkapur/Cross-Merchant-Procurement-Agent): merchant comparison and procurement planning.

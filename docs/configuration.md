@@ -5,16 +5,21 @@ nav_order: 12
 ---
 
 # Configuration
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Application settings, user defaults, and development setup.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Application Configuration](#application-configuration)
+- [User Defaults](#user-defaults)
+- [Wallet Defaults](#wallet-defaults)
+- [Chain Configuration](#chain-configuration)
+- [Risk Policy Thresholds](#risk-policy-thresholds)
+- [Merchant Configuration](#merchant-configuration)
+- [Development Setup](#development-setup)
+- [Dependencies](#dependencies)
 
 ---
 

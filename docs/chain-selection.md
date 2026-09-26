@@ -5,16 +5,19 @@ nav_order: 7
 ---
 
 # Chain Selection
-{: .no_toc }
+
+[Documentation home](index.md)
 
 Weighted scoring algorithm for optimal blockchain routing.
-{: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
+## On this page
 
-1. TOC
-{:toc}
+- [Overview](#overview)
+- [Chain Statistics](#chain-statistics)
+- [Scoring Algorithm](#scoring-algorithm)
+- [Selection Process](#selection-process)
+- [Worked Examples](#worked-examples)
+- [Gas Estimation](#gas-estimation)
 
 ---
 
@@ -71,7 +74,6 @@ score = (fee × 0.4) + (latency × 0.03) + ((1 - reliability) × 100 × 0.3)
 3. **Solana** --- 0.932
 4. **Ethereum** --- 1.480
 
-{: .note }
 Base wins over Solana despite Solana having lower fees and latency, because Base has higher reliability (99% vs 97%). The 30% reliability weight penalizes Solana's 3% failure rate more than it rewards its fee/latency advantages.
 
 ---

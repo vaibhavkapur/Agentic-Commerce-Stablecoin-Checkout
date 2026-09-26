@@ -1,12 +1,14 @@
 # Agentic Commerce + Stablecoin Checkout
 
-An AI-powered commerce agent that turns natural-language requests into policy-controlled USDC payments across multiple blockchains. Speaks to merchant adapters, evaluates a three-layer policy engine (static rules, session delegation, risk scoring), routes to the cheapest chain, and executes -- all behind a single chat interface.
+A conversational commerce demonstration that turns supported natural-language requests into policy-controlled, simulated USDC payments. Merchant adapters, three policy layers, chain selection, and receipts run behind a chat interface.
 
-> **Built with Next.js 14, TypeScript, and Tailwind CSS. Supports Base, Polygon, Solana, and Ethereum.**
+> **[Read the full documentation](docs/index.md)**
 
-**[Read the full documentation](https://vaibhavkapur22.github.io/Agentic-Commerce-Stablecoin-Checkout/)**
+Next.js 14 / React / TypeScript / Tailwind CSS. Intent parsing is rule-based, state is held in memory, and payments on Base, Polygon, Solana, and Ethereum are mocked.
 
 ## Getting Started
+
+See the [Getting Started guide](docs/getting-started.md) for prerequisites and configuration.
 
 ```bash
 # Install dependencies
@@ -19,6 +21,8 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) and start chatting.
 
 ## Quick Example
+
+Illustrative chat output; amounts, routing, and receipts depend on the seeded state and policy. All transactions are simulated.
 
 ```
 You:   "Buy me a latte from BrewHaus"
